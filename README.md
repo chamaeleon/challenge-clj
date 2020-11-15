@@ -1,6 +1,6 @@
 # challenge
 
-A Clojure implementation the VM to solve the [Synacor Challenge|https://challenge.synacor.com]
+A Clojure implementation the VM to solve the [Synacor Challenge](https://challenge.synacor.com)
 
 ## Usage
 
