@@ -1,8 +1,8 @@
 (defproject challenge "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
-  :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
-            :url "https://www.eclipse.org/legal/epl-2.0/"}
+  :description "VM implementation for the Synacor Challenge"
+  :url "https://github.com/chamaeleon/challenge-clj"
+  :license {:name "MIT License"
+            :url "https://opensource.org/licenses/MIT"}
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [gloss "0.2.6"]]
   ;:global-vars {*warn-on-reflection* true}
