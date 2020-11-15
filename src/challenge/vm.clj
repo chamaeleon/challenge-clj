@@ -30,7 +30,7 @@
 (defn mem-read [addr]
   (let [value (raw-read addr)]
     (if (>= value 32768)
-      (raw-read (raw-read addr))
+      (raw-read value)
       value)))
 
 (defn mem-write [addr val]
