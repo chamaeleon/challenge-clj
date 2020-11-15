@@ -155,7 +155,7 @@
   (reset! running false))
 
 (defn load-memory [filename]
-  (let [handle (input-stream filename)]
+  (with-open [handle (input-stream filename)]
     (if-let [content (decode-all bin-frame handle)]
       (do
         (doseq [[idx val] (map-indexed (fn [a b] [a b]) content)]
